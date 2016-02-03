@@ -15,7 +15,7 @@ $manifest = array (
   'built_in_version' => '7.6.1.0',
   'acceptable_sugar_versions' => 
   array (
-    0 => '',
+    0 => '7.6.1.0',
   ),
   'acceptable_sugar_flavors' => 
   array (
@@ -23,536 +23,1243 @@ $manifest = array (
     1 => 'ULT',
   ),
   'readme' => '',
-  'key' => 'Denis',
-  'author' => 'Denis',
-  'description' => 'Test',
+  'key' => '',
+  'author' => '',
+  'description' => 'Task',
   'icon' => '',
   'is_uninstallable' => true,
-  'name' => 'test',
-  'published_date' => '2016-02-03 12:37:03',
+  'name' => 'My_Task',
+  'published_date' => '2016-02-03 12:39:47',
   'type' => 'module',
-  'version' => 1454503023,
+  'version' => 1454503188,
   'remove_tables' => 'prompt',
 );
 
 
 $installdefs = array (
-  'id' => 'test',
-  'beans' => 
-  array (
-    0 => 
-    array (
-      'module' => 'Denis_Test',
-      'class' => 'Denis_Test',
-      'path' => 'modules/Denis_Test/Denis_Test.php',
-      'tab' => true,
-    ),
-  ),
-  'layoutdefs' => 
-  array (
-    0 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/denis_test_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    1 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/denis_test_leads_Denis_Test.php',
-      'to_module' => 'Denis_Test',
-    ),
-  ),
+  'id' => 'My_Task',
   'relationships' => 
   array (
-    0 => 
-    array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/denis_test_leadsMetaData.php',
-    ),
-  ),
-  'image_dir' => '<basepath>/icons',
-  'copy' => 
-  array (
-    0 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Denis_Test',
-      'to' => 'modules/Denis_Test',
-    ),
   ),
   'language' => 
   array (
     0 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'en_us',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/ar_SA.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'ar_SA',
     ),
     1 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'bg_BG',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/zh_CN.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'zh_CN',
     ),
     2 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'cs_CZ',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/pl_PL.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'pl_PL',
     ),
     3 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'da_DK',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/es_LA.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'es_LA',
     ),
     4 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'de_DE',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/sq_AL.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'sq_AL',
     ),
     5 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'el_EL',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/hu_HU.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'hu_HU',
     ),
     6 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'es_ES',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/da_DK.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'da_DK',
     ),
     7 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'fr_FR',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/tr_TR.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'tr_TR',
     ),
     8 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'he_IL',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/ca_ES.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'ca_ES',
     ),
     9 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'hu_HU',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/he_IL.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'he_IL',
     ),
     10 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'it_it',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/en_us.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'en_us',
     ),
     11 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'lt_LT',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/fi_FI.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'fi_FI',
     ),
     12 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'ja_JP',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/nl_NL.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'nl_NL',
     ),
     13 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'ko_KR',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/et_EE.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'et_EE',
     ),
     14 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'lv_LV',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/sr_RS.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'sr_RS',
     ),
     15 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'nb_NO',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/es_ES.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'es_ES',
     ),
     16 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'nl_NL',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/lv_LV.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'lv_LV',
     ),
     17 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'pl_PL',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/ja_JP.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'ja_JP',
     ),
     18 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'pt_PT',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/de_DE.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'de_DE',
     ),
     19 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/ro_RO.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
       'language' => 'ro_RO',
     ),
     20 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'ru_RU',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/cs_CZ.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'cs_CZ',
     ),
     21 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'sv_SE',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/bg_BG.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'bg_BG',
     ),
     22 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'tr_TR',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/nb_NO.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'nb_NO',
     ),
     23 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'zh_CN',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/uk_UA.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'uk_UA',
     ),
     24 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'pt_BR',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/sk_SK.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'sk_SK',
     ),
     25 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'ca_ES',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/pt_PT.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'pt_PT',
     ),
     26 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'en_UK',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/sv_SE.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'sv_SE',
     ),
     27 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'sr_RS',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/ko_KR.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'ko_KR',
     ),
     28 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'sk_SK',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/ru_RU.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'ru_RU',
     ),
     29 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'sq_AL',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/pt_BR.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'pt_BR',
     ),
     30 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'et_EE',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/it_it.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'it_it',
     ),
     31 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'es_LA',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/en_UK.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'en_UK',
     ),
     32 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'fi_FI',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/el_EL.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'el_EL',
     ),
     33 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'ar_SA',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/fr_FR.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
+      'language' => 'fr_FR',
     ),
     34 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
-      'language' => 'uk_UA',
-    ),
-    35 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'en_us',
-    ),
-    36 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'bg_BG',
-    ),
-    37 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'cs_CZ',
-    ),
-    38 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'da_DK',
-    ),
-    39 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'de_DE',
-    ),
-    40 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'el_EL',
-    ),
-    41 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'es_ES',
-    ),
-    42 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'fr_FR',
-    ),
-    43 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'he_IL',
-    ),
-    44 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'hu_HU',
-    ),
-    45 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'it_it',
-    ),
-    46 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
+      'from' => '<basepath>/SugarModules/Extension/application/Ext/Language/lt_LT.sugar_Test_list.My_Task.php',
+      'to_module' => 'application',
       'language' => 'lt_LT',
     ),
-    47 => 
+  ),
+  'custom_fields' => 
+  array (
+    'Denis_Testtask_checkbox_c' => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'ja_JP',
+      'id' => 'Denis_Testtask_checkbox_c',
+      'name' => 'task_checkbox_c',
+      'label' => 'LBL_TASK_CHECKBOX',
+      'comments' => NULL,
+      'help' => NULL,
+      'module' => 'Denis_Test',
+      'type' => 'bool',
+      'max_size' => '255',
+      'require_option' => '0',
+      'default_value' => '0',
+      'date_modified' => '2016-02-03 12:28:07',
+      'deleted' => '0',
+      'audited' => '0',
+      'mass_update' => '0',
+      'duplicate_merge' => '1',
+      'reportable' => '1',
+      'importable' => 'true',
+      'ext1' => NULL,
+      'ext2' => NULL,
+      'ext3' => NULL,
+      'ext4' => NULL,
     ),
-    48 => 
+    'Denis_Testtask_dropdown_c' => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'ko_KR',
+      'id' => 'Denis_Testtask_dropdown_c',
+      'name' => 'task_dropdown_c',
+      'label' => 'LBL_TASK_DROPDOWN',
+      'comments' => '',
+      'help' => '',
+      'module' => 'Denis_Test',
+      'type' => 'enum',
+      'max_size' => '100',
+      'require_option' => '0',
+      'default_value' => 'One',
+      'date_modified' => '2016-02-03 12:29:27',
+      'deleted' => '0',
+      'audited' => '0',
+      'mass_update' => '1',
+      'duplicate_merge' => '1',
+      'reportable' => '1',
+      'importable' => 'true',
+      'ext1' => 'Test_list',
+      'ext2' => '',
+      'ext3' => '',
+      'ext4' => '',
     ),
-    49 => 
+    'Denis_Testtask_textfield_c' => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'lv_LV',
+      'id' => 'Denis_Testtask_textfield_c',
+      'name' => 'task_textfield_c',
+      'label' => 'LBL_TASK_TEXTFIELD',
+      'comments' => NULL,
+      'help' => NULL,
+      'module' => 'Denis_Test',
+      'type' => 'varchar',
+      'max_size' => '255',
+      'require_option' => '0',
+      'default_value' => NULL,
+      'date_modified' => '2016-02-03 12:26:54',
+      'deleted' => '0',
+      'audited' => '0',
+      'mass_update' => '0',
+      'duplicate_merge' => '1',
+      'reportable' => '1',
+      'importable' => 'true',
+      'ext1' => NULL,
+      'ext2' => NULL,
+      'ext3' => NULL,
+      'ext4' => NULL,
     ),
-    50 => 
+    'Leadstask_checkbox_c' => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'nb_NO',
+      'id' => 'Leadstask_checkbox_c',
+      'name' => 'task_checkbox_c',
+      'label' => 'LBL_TASK_CHECKBOX',
+      'comments' => '',
+      'help' => '',
+      'module' => 'Leads',
+      'type' => 'bool',
+      'max_size' => '255',
+      'require_option' => '0',
+      'default_value' => '0',
+      'date_modified' => '2016-02-03 11:11:33',
+      'deleted' => '0',
+      'audited' => '0',
+      'mass_update' => '0',
+      'duplicate_merge' => '1',
+      'reportable' => '1',
+      'importable' => 'true',
+      'ext1' => '',
+      'ext2' => '',
+      'ext3' => '',
+      'ext4' => '',
     ),
-    51 => 
+    'Leadstask_dropdown_c' => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'nl_NL',
+      'id' => 'Leadstask_dropdown_c',
+      'name' => 'task_dropdown_c',
+      'label' => 'LBL_TASK_DROPDOWN',
+      'comments' => '',
+      'help' => '',
+      'module' => 'Leads',
+      'type' => 'enum',
+      'max_size' => '100',
+      'require_option' => '0',
+      'default_value' => 'One',
+      'date_modified' => '2016-02-03 11:17:32',
+      'deleted' => '0',
+      'audited' => '0',
+      'mass_update' => '1',
+      'duplicate_merge' => '1',
+      'reportable' => '1',
+      'importable' => 'true',
+      'ext1' => 'Test_list',
+      'ext2' => '',
+      'ext3' => '',
+      'ext4' => '',
     ),
-    52 => 
+    'Leadstask_textfield_c' => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'pl_PL',
-    ),
-    53 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'pt_PT',
-    ),
-    54 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'ro_RO',
-    ),
-    55 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'ru_RU',
-    ),
-    56 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'sv_SE',
-    ),
-    57 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'tr_TR',
-    ),
-    58 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'zh_CN',
-    ),
-    59 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'pt_BR',
-    ),
-    60 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'ca_ES',
-    ),
-    61 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'en_UK',
-    ),
-    62 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'sr_RS',
-    ),
-    63 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'sk_SK',
-    ),
-    64 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'sq_AL',
-    ),
-    65 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'et_EE',
-    ),
-    66 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'es_LA',
-    ),
-    67 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'fi_FI',
-    ),
-    68 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'ar_SA',
-    ),
-    69 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Denis_Test.php',
-      'to_module' => 'Denis_Test',
-      'language' => 'uk_UA',
-    ),
-    70 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/en_us.lang.php',
-      'to_module' => 'application',
-      'language' => 'en_us',
+      'id' => 'Leadstask_textfield_c',
+      'name' => 'task_textfield_c',
+      'label' => 'LBL_TASK_TEXTFIELD',
+      'comments' => '',
+      'help' => '',
+      'module' => 'Leads',
+      'type' => 'varchar',
+      'max_size' => '255',
+      'require_option' => '0',
+      'default_value' => '',
+      'date_modified' => '2016-02-03 11:10:49',
+      'deleted' => '0',
+      'audited' => '0',
+      'mass_update' => '0',
+      'duplicate_merge' => '1',
+      'reportable' => '1',
+      'importable' => 'true',
+      'ext1' => '',
+      'ext2' => '',
+      'ext3' => '',
+      'ext4' => '',
     ),
   ),
-  'sidecar' => 
+  'copy' => 
   array (
     0 => 
     array (
-      'from' => '<basepath>/SugarModules/clients/base/layouts/subpanels/denis_test_leads_Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/modules/Denis_Test/clients/portal/views/list/list.php',
+      'to' => 'custom/modules/Denis_Test/clients/portal/views/list/list.php',
     ),
     1 => 
     array (
-      'from' => '<basepath>/SugarModules/clients/base/layouts/subpanels/denis_test_leads_Denis_Test.php',
-      'to_module' => 'Denis_Test',
+      'from' => '<basepath>/SugarModules/modules/Denis_Test/clients/portal/views/record/record.php',
+      'to' => 'custom/modules/Denis_Test/clients/portal/views/record/record.php',
     ),
     2 => 
     array (
-      'from' => '<basepath>/SugarModules/clients/mobile/layouts/subpanels/denis_test_leads_Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/modules/Denis_Test/clients/base/views/record/record.php',
+      'to' => 'custom/modules/Denis_Test/clients/base/views/record/record.php',
     ),
     3 => 
     array (
-      'from' => '<basepath>/SugarModules/clients/mobile/layouts/subpanels/denis_test_leads_Denis_Test.php',
-      'to_module' => 'Denis_Test',
+      'from' => '<basepath>/SugarModules/modules/Denis_Test/clients/base/views/subpanel-for-leads-denis_test_leads/subpanel-for-leads-denis_test_leads.php',
+      'to' => 'custom/modules/Denis_Test/clients/base/views/subpanel-for-leads-denis_test_leads/subpanel-for-leads-denis_test_leads.php',
+    ),
+    4 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Denis_Test/clients/base/views/selection-list/selection-list.php',
+      'to' => 'custom/modules/Denis_Test/clients/base/views/selection-list/selection-list.php',
+    ),
+    5 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Leads/clients/base/views/list/list.php',
+      'to' => 'custom/modules/Leads/clients/base/views/list/list.php',
+    ),
+    6 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Leads/clients/base/views/subpanel-for-denis_test-denis_test_leads/subpanel-for-denis_test-denis_test_leads.php',
+      'to' => 'custom/modules/Leads/clients/base/views/subpanel-for-denis_test-denis_test_leads/subpanel-for-denis_test-denis_test_leads.php',
+    ),
+    7 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Leads/clients/base/views/record/record.php',
+      'to' => 'custom/modules/Leads/clients/base/views/record/record.php',
+    ),
+    8 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Leads/clients/base/views/subpanel-for-denis_test-leads_denis_test_1/subpanel-for-denis_test-leads_denis_test_1.php',
+      'to' => 'custom/modules/Leads/clients/base/views/subpanel-for-denis_test-leads_denis_test_1/subpanel-for-denis_test-leads_denis_test_1.php',
+    ),
+    9 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/WirelessLayoutdefs/denis_test_leads_Leads.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/WirelessLayoutdefs/denis_test_leads_Leads.php',
+    ),
+    10 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Layoutdefs/_overrideLead_subpanel_denis_test_leads.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Layoutdefs/_overrideLead_subpanel_denis_test_leads.php',
+    ),
+    11 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Layoutdefs/denis_test_leads_Leads.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Layoutdefs/denis_test_leads_Leads.php',
+    ),
+    12 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/clients/base/layouts/subpanels/denis_test_leads_Leads.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/clients/base/layouts/subpanels/denis_test_leads_Leads.php',
+    ),
+    13 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/clients/base/layouts/subpanels/_overridesubpanel-for-leads-denis_test_leads.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/clients/base/layouts/subpanels/_overridesubpanel-for-leads-denis_test_leads.php',
+    ),
+    14 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/clients/mobile/layouts/subpanels/denis_test_leads_Leads.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/clients/mobile/layouts/subpanels/denis_test_leads_Leads.php',
+    ),
+    15 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Vardefs/sugarfield_task_checkbox_c.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Vardefs/sugarfield_task_checkbox_c.php',
+    ),
+    16 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Vardefs/denis_test_leads_Leads.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Vardefs/denis_test_leads_Leads.php',
+    ),
+    17 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Vardefs/sugarfield_task_textfield_c.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Vardefs/sugarfield_task_textfield_c.php',
+    ),
+    18 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Vardefs/sugarfield_task_dropdown_c.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Vardefs/sugarfield_task_dropdown_c.php',
+    ),
+    19 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ja_JP.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ja_JP.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    20 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/da_DK.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/da_DK.test.php.My_Task.lang.php',
+    ),
+    21 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/nl_NL.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/nl_NL.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    22 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ko_KR.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ko_KR.test.php.My_Task.lang.php',
+    ),
+    23 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/el_EL.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/el_EL.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    24 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/lt_LT.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/lt_LT.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    25 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ca_ES.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ca_ES.test.php.My_Task.lang.php',
+    ),
+    26 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/nb_NO.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/nb_NO.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    27 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/et_EE.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/et_EE.test.php.My_Task.lang.php',
+    ),
+    28 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/et_EE.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/et_EE.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    29 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/lv_LV.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/lv_LV.test.php.My_Task.lang.php',
+    ),
+    30 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/en_UK.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/en_UK.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    31 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/da_DK.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/da_DK.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    32 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/uk_UA.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/uk_UA.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    33 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/it_it.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/it_it.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    34 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/es_LA.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/es_LA.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    35 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/el_EL.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/el_EL.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    36 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/da_DK.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/da_DK.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    37 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/en_us.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/en_us.test.php.My_Task.lang.php',
+    ),
+    38 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/uk_UA.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/uk_UA.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    39 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/el_EL.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/el_EL.test.php.My_Task.lang.php',
+    ),
+    40 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/zh_CN.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/zh_CN.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    41 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ro_RO.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ro_RO.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    42 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/fi_FI.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/fi_FI.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    43 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/bg_BG.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/bg_BG.test.php.My_Task.lang.php',
+    ),
+    44 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/it_it.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/it_it.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    45 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/es_LA.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/es_LA.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    46 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/en_us.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/en_us.My_Task.lang.php',
+    ),
+    47 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/pl_PL.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/pl_PL.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    48 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/sq_AL.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/sq_AL.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    49 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/nb_NO.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/nb_NO.test.php.My_Task.lang.php',
+    ),
+    50 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/fr_FR.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/fr_FR.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    51 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/sv_SE.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/sv_SE.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    52 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/hu_HU.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/hu_HU.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    53 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/sr_RS.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/sr_RS.test.php.My_Task.lang.php',
+    ),
+    54 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/cs_CZ.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/cs_CZ.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    55 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ar_SA.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ar_SA.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    56 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/sk_SK.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/sk_SK.test.php.My_Task.lang.php',
+    ),
+    57 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/en_UK.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/en_UK.test.php.My_Task.lang.php',
+    ),
+    58 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ru_RU.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ru_RU.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    59 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/tr_TR.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/tr_TR.test.php.My_Task.lang.php',
+    ),
+    60 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/fi_FI.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/fi_FI.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    61 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/pt_BR.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/pt_BR.test.php.My_Task.lang.php',
+    ),
+    62 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/en_us.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/en_us.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    63 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/pl_PL.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/pl_PL.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    64 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/pt_BR.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/pt_BR.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    65 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/en_UK.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/en_UK.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    66 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/sr_RS.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/sr_RS.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    67 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/cs_CZ.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/cs_CZ.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    68 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/pt_PT.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/pt_PT.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    69 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ar_SA.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ar_SA.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    70 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/lt_LT.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/lt_LT.test.php.My_Task.lang.php',
+    ),
+    71 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/fi_FI.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/fi_FI.test.php.My_Task.lang.php',
+    ),
+    72 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ru_RU.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ru_RU.test.php.My_Task.lang.php',
+    ),
+    73 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ro_RO.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ro_RO.test.php.My_Task.lang.php',
+    ),
+    74 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/zh_CN.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/zh_CN.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    75 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/he_IL.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/he_IL.test.php.My_Task.lang.php',
+    ),
+    76 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/fr_FR.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/fr_FR.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    77 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/uk_UA.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/uk_UA.test.php.My_Task.lang.php',
+    ),
+    78 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/hu_HU.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/hu_HU.test.php.My_Task.lang.php',
+    ),
+    79 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/sv_SE.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/sv_SE.test.php.My_Task.lang.php',
+    ),
+    80 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/pl_PL.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/pl_PL.test.php.My_Task.lang.php',
+    ),
+    81 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/pt_PT.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/pt_PT.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    82 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/cs_CZ.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/cs_CZ.test.php.My_Task.lang.php',
+    ),
+    83 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/lv_LV.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/lv_LV.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    84 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/nl_NL.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/nl_NL.test.php.My_Task.lang.php',
+    ),
+    85 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/de_DE.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/de_DE.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    86 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ca_ES.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ca_ES.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    87 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/sk_SK.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/sk_SK.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    88 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/es_ES.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/es_ES.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    89 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/nl_NL.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/nl_NL.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    90 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/lv_LV.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/lv_LV.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    91 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/nb_NO.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/nb_NO.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    92 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ru_RU.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ru_RU.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    93 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/es_ES.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/es_ES.test.php.My_Task.lang.php',
+    ),
+    94 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/bg_BG.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/bg_BG.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    95 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ja_JP.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ja_JP.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    96 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/es_LA.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/es_LA.test.php.My_Task.lang.php',
+    ),
+    97 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/sk_SK.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/sk_SK.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    98 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/fr_FR.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/fr_FR.test.php.My_Task.lang.php',
+    ),
+    99 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ko_KR.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ko_KR.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    100 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ko_KR.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ko_KR.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    101 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/pt_PT.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/pt_PT.test.php.My_Task.lang.php',
+    ),
+    102 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/de_DE.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/de_DE.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    103 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/tr_TR.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/tr_TR.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    104 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ca_ES.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ca_ES.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    105 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/de_DE.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/de_DE.test.php.My_Task.lang.php',
+    ),
+    106 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/es_ES.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/es_ES.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    107 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/lt_LT.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/lt_LT.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    108 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/pt_BR.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/pt_BR.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    109 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/he_IL.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/he_IL.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    110 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/en_us.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/en_us.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    111 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/hu_HU.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/hu_HU.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    112 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/et_EE.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/et_EE.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    113 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ar_SA.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ar_SA.test.php.My_Task.lang.php',
+    ),
+    114 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/zh_CN.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/zh_CN.test.php.My_Task.lang.php',
+    ),
+    115 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/sr_RS.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/sr_RS.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    116 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/he_IL.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/he_IL.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    117 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ja_JP.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ja_JP.test.php.My_Task.lang.php',
+    ),
+    118 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/ro_RO.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/ro_RO.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    119 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/bg_BG.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/bg_BG.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    120 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/tr_TR.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/tr_TR.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    121 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/sq_AL.customleads_denis_test_2.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/sq_AL.customleads_denis_test_2.php.My_Task.lang.php',
+    ),
+    122 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/it_it.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/it_it.test.php.My_Task.lang.php',
+    ),
+    123 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/sq_AL.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/sq_AL.test.php.My_Task.lang.php',
+    ),
+    124 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Leads/Ext/Language/sv_SE.customleads_denis_test_1.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Leads/Ext/Language/sv_SE.customleads_denis_test_1.php.My_Task.lang.php',
+    ),
+    125 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/WirelessLayoutdefs/denis_test_leads_Denis_Test.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/WirelessLayoutdefs/denis_test_leads_Denis_Test.php',
+    ),
+    126 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Layoutdefs/_overrideDenis_Test_subpanel_denis_test_leads.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Layoutdefs/_overrideDenis_Test_subpanel_denis_test_leads.php',
+    ),
+    127 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Layoutdefs/denis_test_leads_Denis_Test.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Layoutdefs/denis_test_leads_Denis_Test.php',
+    ),
+    128 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/clients/base/layouts/subpanels/denis_test_leads_Denis_Test.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/clients/base/layouts/subpanels/denis_test_leads_Denis_Test.php',
+    ),
+    129 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/clients/base/layouts/subpanels/_overridesubpanel-for-denis_test-denis_test_leads.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/clients/base/layouts/subpanels/_overridesubpanel-for-denis_test-denis_test_leads.php',
+    ),
+    130 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/clients/mobile/layouts/subpanels/denis_test_leads_Denis_Test.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/clients/mobile/layouts/subpanels/denis_test_leads_Denis_Test.php',
+    ),
+    131 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Vardefs/sugarfield_task_checkbox_c.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Vardefs/sugarfield_task_checkbox_c.php',
+    ),
+    132 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Vardefs/denis_test_leads_Denis_Test.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Vardefs/denis_test_leads_Denis_Test.php',
+    ),
+    133 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Vardefs/sugarfield_task_textfield_c.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Vardefs/sugarfield_task_textfield_c.php',
+    ),
+    134 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Vardefs/sugarfield_task_dropdown_c.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Vardefs/sugarfield_task_dropdown_c.php',
+    ),
+    135 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/da_DK.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/da_DK.test.php.My_Task.lang.php',
+    ),
+    136 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/ko_KR.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/ko_KR.test.php.My_Task.lang.php',
+    ),
+    137 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/ca_ES.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/ca_ES.test.php.My_Task.lang.php',
+    ),
+    138 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/et_EE.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/et_EE.test.php.My_Task.lang.php',
+    ),
+    139 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/lv_LV.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/lv_LV.test.php.My_Task.lang.php',
+    ),
+    140 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/en_us.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/en_us.test.php.My_Task.lang.php',
+    ),
+    141 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/el_EL.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/el_EL.test.php.My_Task.lang.php',
+    ),
+    142 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/bg_BG.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/bg_BG.test.php.My_Task.lang.php',
+    ),
+    143 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/en_us.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/en_us.My_Task.lang.php',
+    ),
+    144 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/nb_NO.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/nb_NO.test.php.My_Task.lang.php',
+    ),
+    145 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/sr_RS.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/sr_RS.test.php.My_Task.lang.php',
+    ),
+    146 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/sk_SK.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/sk_SK.test.php.My_Task.lang.php',
+    ),
+    147 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/en_UK.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/en_UK.test.php.My_Task.lang.php',
+    ),
+    148 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/tr_TR.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/tr_TR.test.php.My_Task.lang.php',
+    ),
+    149 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/pt_BR.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/pt_BR.test.php.My_Task.lang.php',
+    ),
+    150 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/lt_LT.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/lt_LT.test.php.My_Task.lang.php',
+    ),
+    151 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/fi_FI.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/fi_FI.test.php.My_Task.lang.php',
+    ),
+    152 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/ru_RU.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/ru_RU.test.php.My_Task.lang.php',
+    ),
+    153 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/ro_RO.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/ro_RO.test.php.My_Task.lang.php',
+    ),
+    154 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/he_IL.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/he_IL.test.php.My_Task.lang.php',
+    ),
+    155 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/uk_UA.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/uk_UA.test.php.My_Task.lang.php',
+    ),
+    156 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/hu_HU.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/hu_HU.test.php.My_Task.lang.php',
+    ),
+    157 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/sv_SE.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/sv_SE.test.php.My_Task.lang.php',
+    ),
+    158 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/pl_PL.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/pl_PL.test.php.My_Task.lang.php',
+    ),
+    159 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/cs_CZ.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/cs_CZ.test.php.My_Task.lang.php',
+    ),
+    160 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/nl_NL.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/nl_NL.test.php.My_Task.lang.php',
+    ),
+    161 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/es_ES.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/es_ES.test.php.My_Task.lang.php',
+    ),
+    162 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/es_LA.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/es_LA.test.php.My_Task.lang.php',
+    ),
+    163 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/fr_FR.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/fr_FR.test.php.My_Task.lang.php',
+    ),
+    164 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/pt_PT.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/pt_PT.test.php.My_Task.lang.php',
+    ),
+    165 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/de_DE.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/de_DE.test.php.My_Task.lang.php',
+    ),
+    166 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/ar_SA.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/ar_SA.test.php.My_Task.lang.php',
+    ),
+    167 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/zh_CN.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/zh_CN.test.php.My_Task.lang.php',
+    ),
+    168 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/ja_JP.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/ja_JP.test.php.My_Task.lang.php',
+    ),
+    169 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/it_it.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/it_it.test.php.My_Task.lang.php',
+    ),
+    170 => 
+    array (
+      'from' => '<basepath>/Extension/modules/Denis_Test/Ext/Language/sq_AL.test.php.My_Task.lang.php',
+      'to' => 'custom/Extension/modules/Denis_Test/Ext/Language/sq_AL.test.php.My_Task.lang.php',
     ),
   ),
-  'vardefs' => 
+  'roles' => 
   array (
-    0 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/denis_test_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    1 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/denis_test_leads_Denis_Test.php',
-      'to_module' => 'Denis_Test',
-    ),
-  ),
-  'wireless_subpanels' => 
-  array (
-    0 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/wirelesslayoutdefs/denis_test_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    1 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/wirelesslayoutdefs/denis_test_leads_Denis_Test.php',
-      'to_module' => 'Denis_Test',
-    ),
   ),
 );
